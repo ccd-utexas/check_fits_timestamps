@@ -1,0 +1,29 @@
+setup.txt
+
+Setup for python check timestamp script
+ssh ccd@hoth.as.utexas.edu
+File management convention for hoth appears to be:
+- Download source code to ~/.
+- Move executibles to ~/bin/.
+> cd ~
+> wget  http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Linux-x86.sh
+Setup git: https://help.github.com/articles/set-up-git#platform-linux
+> sudo yum install git
+> git config --global user.name "ccd-utexas"
+> git config --global user.email "ccd.utexas@gmail.com"
+Did not store credentials.
+Generated ssh keys without passwords: https://help.github.com/articles/generating-ssh-keys#platform-linux
+> cd ~/.ssh
+> ssh-keygen -t rsa -C "ccd.utexas@gmail.com"
+> eval `ssh-agent -s`
+Agent pid 16774
+> ssh-add id_rsa
+Identity added: id_rsa (id_rsa)
+Printed id_rsa.pub to screen and copied since working remotely.
+Added ssh key as ccd@hoth.as.utexas.edu
+> ssh -t git@github.com
+Access confirmed
+Made new github repository: https://help.github.com/articles/create-a-repo
+Created check_fits_timestamps on github with MIT license and README.md file
+> cd ~
+> git clone git@github.com:ccd-utexas/check_fits_timestamps.git
