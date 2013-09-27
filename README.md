@@ -3,7 +3,11 @@ check_fits_timestamps
 
 Check that all timestamps on FITS files have expected values.
 
+To install:
+See setup.txt, install.sh
+
 Example use:
+See terminal_output.txt
 
 Log into hoth.
 
