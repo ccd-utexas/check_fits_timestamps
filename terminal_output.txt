@@ -1,0 +1,183 @@
+ 101 % ccd@hoth ~> cd ~
+ 102 % ccd@hoth ~> check_fits_timestamps.py /data1/opus/sep13/A2922/A2922.*.fits
+
+2013-09-27T21:43:23.926447
+Begin checking FITS timestamps for 
+/data1/opus/sep13/A2922/A2922.0001.fits
+...
+/data1/opus/sep13/A2922/A2922.5474.fits
+Runtime estimate: 30 seconds
+WARNING: File may have been truncated: actual file length (527168) is smaller than the expected size (529920) [astropy.io.fits.file]
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 4.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1428.fits
+old_UNIXTIME  = 1378013401.0
+old_UTC       = 05:30:01
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1429.fits
+new_UNIXTIME  = 1378013405.0
+new_UTC       = 05:30:05
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 6.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1429.fits
+old_UNIXTIME  = 1378013405.0
+old_UTC       = 05:30:05
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1430.fits
+new_UNIXTIME  = 1378013411.0
+new_UTC       = 05:30:11
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = -55.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1430.fits
+old_UNIXTIME  = 1378013411.0
+old_UTC       = 05:30:11
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1431.fits
+new_UNIXTIME  = 1378013356.0
+new_UTC       = 05:29:16
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 9.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1440.fits
+old_UNIXTIME  = 1378013401.0
+old_UTC       = 05:30:01
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1441.fits
+new_UNIXTIME  = 1378013410.0
+new_UTC       = 05:30:10
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 6.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1441.fits
+old_UNIXTIME  = 1378013410.0
+old_UTC       = 05:30:10
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1442.fits
+new_UNIXTIME  = 1378013416.0
+new_UTC       = 05:30:16
+new_DATE-OBS  = 2013-09-01
+
+WARNING: Timing errors were found.
+End checking timestamps.
+2013-09-27T21:43:54.761033
+
+Hit Ctrl-C to stop program.
+Sleeping for 60 seconds.
+
+2013-09-27T21:44:54.760697
+Begin checking FITS timestamps for 
+/data1/opus/sep13/A2922/A2922.0001.fits
+...
+/data1/opus/sep13/A2922/A2922.5474.fits
+Runtime estimate: 30 seconds
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 4.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1428.fits
+old_UNIXTIME  = 1378013401.0
+old_UTC       = 05:30:01
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1429.fits
+new_UNIXTIME  = 1378013405.0
+new_UTC       = 05:30:05
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 6.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1429.fits
+old_UNIXTIME  = 1378013405.0
+old_UTC       = 05:30:05
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1430.fits
+new_UNIXTIME  = 1378013411.0
+new_UTC       = 05:30:11
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = -55.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1430.fits
+old_UNIXTIME  = 1378013411.0
+old_UTC       = 05:30:11
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1431.fits
+new_UNIXTIME  = 1378013356.0
+new_UTC       = 05:29:16
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 9.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1440.fits
+old_UNIXTIME  = 1378013401.0
+old_UTC       = 05:30:01
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1441.fits
+new_UNIXTIME  = 1378013410.0
+new_UTC       = 05:30:10
+new_DATE-OBS  = 2013-09-01
+
+TIMING ERROR: new_UNIXTIME - old_UNIXTIME != EXPTIME
+new_UNIXTIME - old_UNIXTIME = 6.0
+EXPTIME = 5.0
+old_fits_file = /data1/opus/sep13/A2922/A2922.1441.fits
+old_UNIXTIME  = 1378013410.0
+old_UTC       = 05:30:10
+old_DATE-OBS  = 2013-09-01
+new_fits_file = /data1/opus/sep13/A2922/A2922.1442.fits
+new_UNIXTIME  = 1378013416.0
+new_UTC       = 05:30:16
+new_DATE-OBS  = 2013-09-01
+
+Program stopped.
+ 103 % ccd@hoth ~> check_fits_timestamps.py /data1/opus/sep13/A2923/A2923.*.fits
+
+2013-09-27T21:45:29.753719
+Begin checking FITS timestamps for 
+/data1/opus/sep13/A2923/A2923.0001.fits
+...
+/data1/opus/sep13/A2923/A2923.0054.fits
+Runtime estimate: 0 seconds
+WARNING: File may have been truncated: actual file length (527168) is smaller than the expected size (529920) [astropy.io.fits.file]
+
+No timing errors were found.
+End checking timestamps.
+2013-09-27T21:45:30.767416
+
+Hit Ctrl-C to stop program.
+Sleeping for 60 seconds.
+
+Program stopped.
+ 104 % ccd@hoth ~> check_fits_timestamps.py /data1/opus/sep13/A2923/A2923.log 
+
+Must call with 2 or more FITS files.
+Example use:
+check_fits_timestamps.py /path/to/data/A1234.*.fits
+
+Program stopped.
+ 105 % ccd@hoth ~> check_fits_timestamps.py /data1/opus/sep13/A2923/A2923.*
+
+2013-09-27T21:46:31.269377
+Begin checking FITS timestamps for 
+/data1/opus/sep13/A2923/A2923.0001.fits
+...
+/data1/opus/sep13/A2923/A2923.sts
+Runtime estimate: 0 seconds
+WARNING: File may have been truncated: actual file length (527168) is smaller than the expected size (529920) [astropy.io.fits.file]
+
+Program stopped.
+ 106 % ccd@hoth ~> 
